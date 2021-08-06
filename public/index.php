@@ -18,15 +18,6 @@ use DinoPHP\Http\Request;
 require __DIR__.'/../vendor/autoload.php';
 
 
-/*
-|-------------------------------------------------------------------
-| .env configuration
-|-------------------------------------------------------------------
-|
-| Load .environment file
-*/
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
 
 /*
 |-------------------------------------------------------------------
