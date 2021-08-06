@@ -18,7 +18,6 @@ use DinoPHP\Http\Request;
 require __DIR__.'/../vendor/autoload.php';
 
 
-
 /*
 |-------------------------------------------------------------------
 | Bootstrap
