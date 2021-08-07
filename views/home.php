@@ -1,13 +1,10 @@
 <html>
 
 <head>
-	<title>Bubble Templating</title>
+	<title>Home - Bubble Templating</title>
 	{% include 'links.php' %}
 	<style>
 		.container {
-			max-width: 1000px;
-			margin-left: auto;
-			margin-right: auto;
 			text-align: center;
 			margin-top: 7%;
 		}
@@ -16,8 +13,7 @@
 </head>
 
 <body>
-	{% include 'navbar.php' %}
-
+{% include 'navbar.php' %}
 	<div class="container">
 		<div>
 			<h1 style="font-weight: 800;font-size: 40px;line-height: 45px;margin-bottom: 2%;">Bubble is a PHP Template Engine</h1>
@@ -48,7 +44,7 @@
 			<a class="twitter-timeline" data-lang="en" data-width="500" data-height="600" data-theme="dark" href="https://twitter.com/dino_php?ref_src=twsrc%5Etfw">Tweets by dino_php</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</div>
 
-	{% include 'footer.php' %}
+{% include 'footer.php' %}
 </body>
 {% include 'scripts.php' %}
 

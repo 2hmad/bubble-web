@@ -1,18 +1,29 @@
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .download-section h2:before, .follow-section h2:before {
+        display: none !important;
+    }
+    .download-section h2:after, .follow-section h2:after {
+        display: none !important;
+    }
+    .navbar {
+        padding: 0 !important;
+    }    
+}
+/* End Media Query */
+
 *, html {
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Tajawal', sans-serif !important;
     min-height: 100vh;
+    background-color: #f5f5fa !important;
 }
 .navbar {
-    background: #ff082c;
-    padding: 10px;
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
+    padding: 25px 0px 20px 140px;
 }
 .logo {
     margin-right: 5%;
@@ -22,20 +33,20 @@ body {
     max-width: 70px;
 }
 a {
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
 }
 .nav-links {
     gap: 36px;
     display: flex;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
 }
 .nav-links a {
-    color: white !important;
+    color: black !important;
 }
 .nav-links a:hover {
-    color: gainsboro !important;
+    color: #2f2f2f !important;
     -webkit-transition: 0.6s;
     transition: 0.6s;
 }
@@ -67,7 +78,7 @@ button.blog, button.docs, button.contribute {
     width: 150px;
     height: 2px;
     background: #464646;
-    left: 40px;
+    left: 0px;
     top: 50%;
     position: absolute;
 }
@@ -77,7 +88,7 @@ button.blog, button.docs, button.contribute {
     width: 150px;
     height: 2px;
     background: #464646;
-    right: 40px;
+    right: 0px;
     top: 50%;
     position: absolute;
 }
@@ -92,7 +103,7 @@ button.blog, button.docs, button.contribute {
     width: 150px;
     height: 2px;
     background: #464646;
-    left: 30px;
+    left: 0px;
     top: 50%;
     position: absolute;
 }
@@ -102,15 +113,31 @@ button.blog, button.docs, button.contribute {
     width: 150px;
     height: 2px;
     background: #464646;
-    right: 30px;
+    right: 0px;
     top: 50%;
     position: absolute;
 }
-@media screen and (max-width: 768px) {
-    .download-section h2:before, .follow-section h2:before {
-        display: none;
-    }
-    .download-section h2:after, .follow-section h2:after {
-        display: none;
-    }
+footer a {
+    color: black !important;
+}
+.menu-link {
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+.menu-docs {
+    line-height: 2em;
+}
+.menu-docs a {
+    color: black !important;
+}
+.hashtag {
+    color: red;
+}
+code {
+    width: 100%;
+    padding: 7px !important;
+    display: block;
+    white-space: pre;
 }

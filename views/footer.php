@@ -3,11 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg" style="display: flex;flex-direction: column;gap: 10px;">
-                <span style="font-weight: bold;text-transform: uppercase;font-size: 18px;">DinoPHP</span>
+                <span style="font-weight: bold;text-transform: uppercase;font-size: 18px;">Bubble</span>
                 <a href="docs">Documentation</a>
-                <a href="team">Our Team</a>
-                <a href="installation">Getting Started</a>
-                <a href="#">Release Notes</a>
+                <a href="https://dinophp.com/team">Our Team</a>
+                <a href="https://github.com/DinoPHP/BubbleTemplateEngine/releases">Release Notes</a>
             </div>
             <div class="col-lg" style="display: flex;flex-direction: column;gap: 10px;">
                 <span style="font-weight: bold;text-transform: uppercase;font-size: 18px;">Services</span>
@@ -22,7 +21,7 @@
                 <a href="#"><i class="fab fa-discord"></i> Discord</a>
             </div>
             <div class="col-lg" style="display: flex;flex-direction: column;gap: 10px;">
-                <span>DinoPHP is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. DinoPHP attempts to take the pain out of development by easing common tasks used in most web projects.</span>
+                <span>Bubble is a PHP template engine that helps you quickly write simple yet powerful web applications. Bubble attempts to take the pain out of development by easing common tasks used in most web projects.</span>
                 <div class="copyright">
                     <span style="color:#7b7b7b;display:block">Trademark of Ahmed Mohamed Ibrahim</span>
                     <span style="color:#7b7b7b">Copyright © 2021 DinoPHP</span>
