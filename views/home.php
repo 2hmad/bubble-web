@@ -41,7 +41,7 @@
 
 		<div class="follow-section" style="margin-top: 7%;">
 			<h2>Follow Us on Twitter</h2>
-			<a class="twitter-timeline" data-lang="en" data-width="500" data-height="600" data-theme="dark" href="https://twitter.com/dino_php?ref_src=twsrc%5Etfw">Tweets by dino_php</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<!-- <a class="twitter-timeline" data-lang="en" data-width="500" data-height="600" data-theme="dark" href="https://twitter.com/dino_php?ref_src=twsrc%5Etfw">Tweets by dino_php</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 	</div>
 
 {% include 'footer.php' %}
