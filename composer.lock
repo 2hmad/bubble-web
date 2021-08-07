@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8336bb7da01e85beaf6087a13fbb7c08",
+    "content-hash": "e3e3bd3e329c29266d947c1f869cace5",
     "packages": [
         {
             "name": "composer/semver",
@@ -977,12 +977,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "78dca372660e5919c3e39e79399d1c76180ab90e"
+                "reference": "dc7d72e47eb6edff9739b18369a258ebddc7cf5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/78dca372660e5919c3e39e79399d1c76180ab90e",
-                "reference": "78dca372660e5919c3e39e79399d1c76180ab90e",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/dc7d72e47eb6edff9739b18369a258ebddc7cf5a",
+                "reference": "dc7d72e47eb6edff9739b18369a258ebddc7cf5a",
                 "shasum": ""
             },
             "require": {
@@ -1026,7 +1026,7 @@
                 "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
                 "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/master"
             },
-            "time": "2021-08-01T20:21:35+00:00"
+            "time": "2021-08-06T09:57:03+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -1034,12 +1034,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "550e0fb7efa2f7a361d47ea1e30921989a43e41d"
+                "reference": "274f578e36b0d310d8101f252c6406a772377875"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/550e0fb7efa2f7a361d47ea1e30921989a43e41d",
-                "reference": "550e0fb7efa2f7a361d47ea1e30921989a43e41d",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/274f578e36b0d310d8101f252c6406a772377875",
+                "reference": "274f578e36b0d310d8101f252c6406a772377875",
                 "shasum": ""
             },
             "require": {
@@ -1077,7 +1077,7 @@
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
                 "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.x"
             },
-            "time": "2021-07-24T09:21:39+00:00"
+            "time": "2021-08-06T16:49:20+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -2858,12 +2858,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "92f3a650687b4572fab0ecdd60b7825c9d3b3707"
+                "reference": "b0562497d1fcc22cbd1b1569f2fb941af5c0fd2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/92f3a650687b4572fab0ecdd60b7825c9d3b3707",
-                "reference": "92f3a650687b4572fab0ecdd60b7825c9d3b3707",
+                "url": "https://api.github.com/repos/symfony/console/zipball/b0562497d1fcc22cbd1b1569f2fb941af5c0fd2a",
+                "reference": "b0562497d1fcc22cbd1b1569f2fb941af5c0fd2a",
                 "shasum": ""
             },
             "require": {
@@ -2949,7 +2949,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-04T21:21:08+00:00"
+            "time": "2021-08-05T05:10:47+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3253,12 +3253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "d7d432dca50a9ad3113488302384d2466ac7b46b"
+                "reference": "1680d3877d0a4619f41314b0f1707a64302d445a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/d7d432dca50a9ad3113488302384d2466ac7b46b",
-                "reference": "d7d432dca50a9ad3113488302384d2466ac7b46b",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/1680d3877d0a4619f41314b0f1707a64302d445a",
+                "reference": "1680d3877d0a4619f41314b0f1707a64302d445a",
                 "shasum": ""
             },
             "require": {
@@ -3308,7 +3308,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-04T21:21:08+00:00"
+            "time": "2021-08-06T09:35:36+00:00"
         },
         {
             "name": "symfony/options-resolver",

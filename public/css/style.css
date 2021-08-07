@@ -1,0 +1,116 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Tajawal', sans-serif;
+    min-height: 100vh;
+}
+.navbar {
+    background: #ff082c;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.logo img {
+    max-width: 70px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.nav-links {
+    gap: 36px;
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nav-links a {
+    color: white !important;
+}
+.nav-links a:hover {
+    color: gainsboro !important;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+button.blog, button.docs, button.contribute {
+    padding: 12px;
+    background: #ff082c;
+    color: white;
+    border: 1px solid #ff082c;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px;
+}
+.code {
+    background-color: #404040;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+    font-weight: 400;
+}
+.download-section h2 {
+    max-width: 600px;
+    position: relative;
+    margin: 25px auto;
+}
+.download-section h2:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #464646;
+    left: 40px;
+    top: 50%;
+    position: absolute;
+}
+.download-section h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #464646;
+    right: 40px;
+    top: 50%;
+    position: absolute;
+}
+.follow-section h2 {
+    max-width: 600px;
+    position: relative;
+    margin: 25px auto;
+}
+.follow-section h2:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #464646;
+    left: 30px;
+    top: 50%;
+    position: absolute;
+}
+.follow-section h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #464646;
+    right: 30px;
+    top: 50%;
+    position: absolute;
+}
+@media screen and (max-width: 768px) {
+    .download-section h2:before, .follow-section h2:before {
+        display: none;
+    }
+    .download-section h2:after, .follow-section h2:after {
+        display: none;
+    }
+}
