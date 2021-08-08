@@ -26,7 +26,7 @@
                     You are ready to create your first project with Bubble. Launch Windows Terminal ( Git ) and begin a new terminal session. Next, you can use a simple terminal command to create a new project. For example, to create a new application in a directory named "Bubble", you may run the following command in your terminal
                 </p>
                 <code>
-                    composer create-project --prefer-dist dinophp/bubbletemplate [App Name]
+composer create-project --prefer-dist dinophp/bubbletemplate [App Name]
                 </code>
                 <p>
                     Of course, you can change [App Name] in this URL to anything you like. The Dinophp application's directory will be created within the directory you execute the command from.

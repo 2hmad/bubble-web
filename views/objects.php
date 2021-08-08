@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Operators - Bubble Templating</title>
+	<title>Objects - Bubble Templating</title>
 	{% include 'links.php' %}
 	<style>
 		.container {
@@ -21,72 +21,70 @@
         </div>
         <div class="col-lg">
             <div style="margin-top:5%">
-                <h3 style="font-weight: bold"><span class="hashtag">#</span> Operators</h3>
+                <h3 style="font-weight: bold"><span class="hashtag">#</span> Objects</h3>
 
                 <div style="margin-bottom: 2%;">
                 <h5><a href="#"><span class="hashtag">#</span></a> Comparisons</h5>
-                <p>The following comparison operators are supported in any expression: ==, !=, <, >, >=, and <=</p>
+                <p>defined checks if a variable is defined in the current context</p>
                 <code>
-&#123;% if 'Fabien' starts with 'f' %&#125;
-    //Write Something Here
-&#123;% endif %&#125;
-                </code>
-                <code>
-&#123;% if 'Fabien' ends with 'n' %&#125;
+&#123;% if foo is defined %&#125;
     //Write Something Here
 &#123;% endif %&#125;
                 </code>
                 </div>
 
                 <div style="margin-bottom: 2%;">
-                <h5><a href="#"><span class="hashtag">#</span></a> Logic</h5>
-                <p>You can combine multiple expressions with the following operators</p>
-                <p><b>and</b>: Returns true if the left and the right operands are both true.</p>
-                <p><b>or</b>: Returns true if the left or the right operand is true.</p>
-                <p><b>not</b>: Negates a statement.</p>
-                <p><b>(expr)</b>: Groups an expression.</p>
-                </div>
-
-                <div style="margin-bottom: 2%;">
-                <h5><a href="#"><span class="hashtag">#</span></a> Math</h5>
-                <p>Bubble allows you to do math in templates; the following operators are supported</p>
-                <p><b>+</b>: Adds two numbers together</p>
-                <p><b>-</b>: Subtracts the second number from the first one.</p>
-                <p><b>/</b>: Divides two numbers. The returned value will be a floating point number.</p>
-                <p><b>%</b>: Calculates the remainder of an integer division.</p>
-                <p><b>//</b>: Divides two numbers and returns the floored integer result.</p>
-                <p><b>*</b>: Multiplies the left operand with the right one.</p>
-                <p><b>**</b>: Raises the left operand to the power of the right operand.</p>
-                </div>
-
-                <div style="margin-bottom: 2%;">
-                <h5><a href="#"><span class="hashtag">#</span></a> IN</h5>
-                <p>The in operator performs containment test. It returns true if the left operand is contained in the right</p>
+                <h5><a href="#"><span class="hashtag">#</span></a> Empty</h5>
+                <p>empty checks if a variable is an empty string, an empty array, an empty hash, exactly false, or exactly null</p>
                 <code>
-&#123;{ 'cd' in 'abcde' }&#125;
-&#123;# returns true #&#125;
+&#123;% if foo is empty %&#125;
+    //Write Something Here
+&#123;% endif %&#125;
                 </code>
                 </div>
 
                 <div style="margin-bottom: 2%;">
-                <h5><a href="#"><span class="hashtag">#</span></a> IS</h5>
-                <p>The in operator performs containment test. It returns true if the left operand is contained in the right</p>
+                <h5><a href="#"><span class="hashtag">#</span></a> Even</h5>
+                <p>even returns true if the given number is even</p>
                 <code>
-&#123;{ 'cd' in 'abcde' }&#125;
-&#123;# returns true #&#125;
+&#123;{ var is even }&#125;
                 </code>
                 </div>
 
                 <div style="margin-bottom: 2%;">
-                <h5><a href="#"><span class="hashtag">#</span></a> Other Operators</h5>
-                <p>We accept other operators in our template engine</p>
-                <p><b>..</b>: Creates a sequence based on the operand before and after the operator</p>
-                <p><b>.</b>: Gets an attribute of a variable.</p>
-                <p><b>[]</b>: Gets an attribute of a variable.</p>
-                <p><b>|</b>: Applies a filter.</p>
-                <p><b>~</b>: Converts all operands into strings and concatenates them.</p>
-                <p><b>?:</b>: The ternary operator. (example:  &#123;{ foo ? 'yes' : 'no' }&#125;  )</p>
-                <p><b>??</b>: The null-coalescing operator (example:  &#123;{ foo ?? 'yes' }&#125;  )</p>
+                <h5><a href="#"><span class="hashtag">#</span></a> Odd</h5>
+                <p>odd returns true if the given number is odd</p>
+                <code>
+&#123;{ var is odd }&#125;
+                </code>
+                </div>
+
+                <div style="margin-bottom: 2%;">
+                <h5><a href="#"><span class="hashtag">#</span></a> Iterable</h5>
+                <p>iterable checks if a variable is an array or a traversable object</p>
+                <code>
+&#123;# evaluates to true if the foo variable is iterable #&#125;
+&#123;% if users is iterable %&#125;
+
+    &#123;% for user in users %&#125;
+        Hello &#123;{ user }&#125;!
+    &#123;% endfor %&#125;
+
+&#123;% else %&#125;
+
+    &#123;# users is probably a string #&#125;
+    Hello &#123;{ users }&#125;!
+
+&#123;% endif %&#125;
+                </code>
+                </div>
+
+                <div style="margin-bottom: 2%;">
+                <h5><a href="#"><span class="hashtag">#</span></a> Null</h5>
+                <p>null returns true if the variable is null</p>
+                <code>
+&#123;{ var is null }&#125;
+                </code>
                 </div>
 
             </div>
