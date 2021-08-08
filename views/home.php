@@ -20,11 +20,15 @@
 			<span style="font-weight: 400;font-size: 16px;color: #757575;margin-bottom: 2%;">that helps you quickly write simple yet powerful web applications</span>
 		</div>
 		<div class="buttons" style="display: flex;gap: 15px;justify-content: center;flex-wrap: wrap;margin-top:3%">
-			<a href="#">
+			<a href="docs">
 				<button class="docs"><i class="fad fa-file-code" style="font-size: 15px;"></i> Documentation</button>
 			</a>
-			<button class="blog"><i class="far fa-rss" style="font-size: 15px;"></i> Blog</button>
-			<button class="contribute"><i class="far fa-tools" style="font-size: 15px;"></i> Contribute</button>
+			<a href="https://dinophp.com/blog">
+				<button class="blog"><i class="far fa-rss" style="font-size: 15px;"></i> Blog</button>
+			</a>
+			<a href="https://github.com/DinoPHP/BubbleTemplateEngine">
+				<button class="contribute"><i class="far fa-tools" style="font-size: 15px;"></i> Contribute</button>
+			</a>
 		</div>
 
 		<div class="download-section" style="margin-top: 7%;">
